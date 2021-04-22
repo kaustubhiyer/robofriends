@@ -16,12 +16,12 @@ class App extends React.Component {
     }
 
     componentDidMount = () => {
-        fetch('https://jsonplaceholder.typicode.com/users')
-            .then(response => response.json())
-            .then(users => {
-                this.setState({ robots: users });
-            });
-        // this.setState({ robots });
+        // fetch('https://jsonplaceholder.typicode.com/users')
+        //     .then(response => response.json())
+        //     .then(users => {
+        //         this.setState({ robots: users });
+        //     });
+        this.setState({ robots: robots });
     }
 
     onSearchChange = (event) => {
