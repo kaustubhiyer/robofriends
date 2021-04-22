@@ -21,6 +21,7 @@ class App extends React.Component {
         //     .then(users => {
         //         this.setState({ robots: users });
         //     });
+        console.log(robots);
         this.setState({ robots: robots });
     }
 
